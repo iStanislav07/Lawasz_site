@@ -1,0 +1,61 @@
+/*
+body
+*/
+section{
+	margin-bottom: 70px;
+}
+
+#first-row{
+	margin-bottom:60px;
+}
+.title{
+	padding:50px;
+}
+
+.thumbnail{
+	border-radius: 50px;
+	border: none;
+	padding: 0px;
+	font-size: 18pt;
+	background: #ffedb3;
+	color: #9f301b;
+}
+
+.thumbnail:hover{
+	background: #9f301b;
+	color: #ffedb3;
+}
+
+.thumbnail img{
+	width:100%;
+}
+
+.thumbnail .caption{
+	line-height: 80px;
+	text-align: center;
+	color:inherit;
+}
+
+.pager{
+	color: #D9BF72;
+}
+
+.pager a{
+	font-size:24pt;
+	color: #9f301b;
+	padding: 9px;
+}
+
+.pager .active{
+	background: #9f301b;
+	color: #D9BF72;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+	#first-row{
+		margin-bottom:0px;
+	}
+}	

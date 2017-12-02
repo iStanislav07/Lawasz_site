@@ -1,0 +1,83 @@
+/*O produczie css*/
+
+section{
+	margin-bottom: 75px;
+}
+
+.title {
+	margin:40px!important;
+}
+
+.row{
+	padding:0px!important;
+	margin:0px;
+}
+
+#content-box {
+	padding: 0px;
+	padding-bottom: 30px!important;
+	border-radius: 50px;
+	background-color: #ffedb3;
+	color: #9f301b;
+}
+	#carousel-example-generic {
+		height:370px;
+		width:100%;
+		border-radius: 50px;
+		overflow: hidden;
+	}
+
+	#carousel-example-generic .item img {
+		width:auto;
+		height:100%;
+	}
+
+	.chevron-left {
+		position: absolute;
+		top: 45%;
+		left:10%;
+		z-index: 5;
+		display: inline-block;
+		color:#ffedb3;
+	}
+
+	.chevron-right {
+		position: absolute;
+		top: 45%;
+		right:10%;
+		z-index: 5;
+		display: inline-block;
+		color:#ffedb3;
+	}
+
+	.text {
+		padding: 0px 30px;
+		text-align: justify;
+	}
+
+	.text {
+		margin-bottom: 25px;
+	}
+
+	#body-title {
+		font-size:1.5em;
+		padding: 40px 0px;
+		margin:0;
+	}
+
+	.body-list {
+		padding-left: 40px; 
+		
+	}
+	
+	.body-list ul {
+	  margin:0;
+	}
+
+	.body-list li {
+	  color: black; 
+	}
+
+	.body-list li span {
+	  color: #9f301b; 
+	}
